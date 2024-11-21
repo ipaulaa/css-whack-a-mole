@@ -1,6 +1,11 @@
+.pf {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
 .wgs {
-  width: 640px;
-  height: 482px;
+  width: 320px;
+  height: 241px;
   position: relative;
 
   display: inline-block;
@@ -9,22 +14,22 @@
 }
 
 .wgs__mole-head {
-  width: 376px;
-  height: 356px;
+  width: 188px;
+  height: 178px;
   position: absolute;
   top: 0;
-  left: 109px;
+  left: 55px;
 
   transition: margin-top 0.25s;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 482px;
+  margin-top: 241px;
 }
 
 .wgs__dirt-pile {
-  width: 640px;
-  height: 220px;
+  width: 320px;
+  height: 110px;
   position: absolute;
   bottom: 0;
 }
